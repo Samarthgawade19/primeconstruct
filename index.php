@@ -1,6 +1,6 @@
 <?php
-include "header.php";
-?>
+include "header.php";?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -20,3 +20,4 @@ include "header.php";
 </body>
 
 </html>
+
