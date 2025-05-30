@@ -1,4 +1,4 @@
-<b?php
+<?php
 include "header.php";
 ?>
 <!DOCTYPE html>

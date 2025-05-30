@@ -39,7 +39,7 @@
                 </div>
             </div>
         </div>
-        <div class="row mt-3">
+        <div class="row mt-3 mb-5">
             <div class="col-lg-4">
                 <div class="card mt-3" style="width: 20rem;">
                     <img src="../img/4.jpg" class="card-img-top" alt="...">
