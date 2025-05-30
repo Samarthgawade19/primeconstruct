@@ -1,1 +1,3 @@
-<p>buy</p>
+<?php
+include "header.php";
+?>
