@@ -6,14 +6,68 @@
 </div>
 <div class="container-fluid">
     <div class="container">
-        <h5 class="text-danger">Our Projects</h5>
-        <h1>Our Projects Inspiration for Your Next Project</h1>
-        <div class="card mt-3" style="width: 18rem;">
-            <img src="img/11.jpg" class="card-img-top" alt="error">
-            <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                    card’s content.</p>
+        <div class="row">
+            <h5 class="text-danger">Our Projects</h5>
+            <h1>Our Projects Inspiration for Your Next Project</h1>
+            <div class="col-lg-4">
+                <div class="card mt-3" style="width: 20rem;">
+                    <img src="../img/11.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5><b>Low Rise Building</b></h5>
+                        <p>Commercial</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card mt-3" style="width: 20rem;">
+                    <img src="../img/2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5><b>Winter Maintenance</b></h5>
+                        <p>Residential</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card mt-3" style="width: 20rem;">
+                    <img src="../img/3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5><b>Solar Roof</b></h5>
+                        <p>Commercial</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-4">
+                <div class="card mt-3" style="width: 20rem;">
+                    <img src="../img/4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5><b>Solar Roof</b></h5>
+                        <p>Residential</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card mt-3" style="width: 20rem;">
+                    <img src="../img/5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5><b>Traditional Style Pattern</b></h5>
+                        <p>Residential</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card mt-3" style="width: 20rem;">
+                    <img src="../img/6.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5><b>Modern Style Pattern</b></h5>
+                        <p>Residential</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
