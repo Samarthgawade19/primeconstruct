@@ -11,7 +11,7 @@
             <h1>Trust the Experience</h1>
             <div class="col-lg-4">
                 <div class="card mt-3" style="width: 20rem;">
-                    <img src="../img/11.jpg" class="card-img-top" alt="...">
+                    <img src="../img/services-1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5><b>Roof Installations</b></h5>
                         <p>Professional roof installations built to last.
@@ -23,7 +23,7 @@
 
             <div class="col-lg-4">
                 <div class="card mt-3" style="width: 20rem;">
-                    <img src="../img/11.jpg" class="card-img-top" alt="...">
+                    <img src="../img/services-2.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5><b>Roof Repair</b></h5>
                         <p>Fast and efficient roof repair services.
@@ -35,7 +35,7 @@
 
             <div class="col-lg-4">
                 <div class="card mt-3" style="width: 20rem;">
-                    <img src="../img/11.jpg" class="card-img-top" alt="...">
+                    <img src="../img/service-3-.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5><b>Leak Repair​</b></h5>
                         <p>Expert leak repair to stop water damage fast.
@@ -50,7 +50,7 @@
         <div class="row mt-3 mb-5 col-12 col-md-12">
             <div class="col-lg-4">
                 <div class="card mt-3" style="width: 20rem;">
-                    <img src="../img/11.jpg" class="card-img-top" alt="...">
+                    <img src="../img/metal-roof.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5><b>Roof Installations​</b></h5>
                         <p>Expert roof installations for lasting performance.
@@ -63,7 +63,7 @@
 
             <div class="col-lg-4">
                 <div class="card mt-3" style="width: 20rem;">
-                    <img src="../img/11.jpg" class="card-img-top" alt="...">
+                    <img src="../img/vegetative-roof.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5><b>Vegetative Roofing​​</b></h5>
                         <p>Eco-friendly vegetative roofing solutions for modern buildings.
@@ -75,7 +75,7 @@
 
             <div class="col-lg-4">
                 <div class="card mt-3" style="width: 20rem;">
-                    <img src="../img/11.jpg" class="card-img-top" alt="...">
+                    <img src="../img/metal-roof-1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5><b>Specialty Metal​​​</b></h5>
                         <p>High-quality specialty metal roofing for lasting durability.
