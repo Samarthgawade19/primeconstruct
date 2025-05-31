@@ -1,6 +1,12 @@
 <?php
 include "header.php";
 ?>
+<div class="container-fluid bg-light">
+    <div class="container py-5 text-center">
+        <h1 class="display-4 fw-bold">About Us</h1>
+        <p class="text-muted">Elevate Your Vision. Expand Your World.</p>
+    </div>
+</div>
 <div class="container">
     <div class="row">
         <div class="col-6">
@@ -12,7 +18,12 @@ include "header.php";
             <br>
             <button type="button" class="btn btn-danger"> READ MORE </button>
             <br>
-            <img src="../img/founder.jpg" alt="">
+            <div class="row">
+                <div class="col-3"><img src="./img/founder.jpg" alt="Founder Image" class="mt-3" style="height: 100px; width: 100px; border-radius: 50px;"></div>
+                <div class="col-9 mt-3"><p>Founder :</p>
+            <b>Omraj Optimiser</b>
+        <p>+91-444 333 44 66</p></div>
+            </div>
         </div>
         <div class="col-6">
             <b>What We Do</b>
