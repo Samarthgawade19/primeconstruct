@@ -24,7 +24,13 @@
               <a class="nav-link active" aria-current="page" style="color:white" href="index.php">Home</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link active" style="color:white" href="services.php">Services</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" style="color:white" href="about.php">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color:white" href="project.php">Our Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" style="color:white" href="contact.php">Contact Us</a>
