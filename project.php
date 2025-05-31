@@ -11,7 +11,7 @@
             <h1>Our Projects Inspiration for Your Next Project</h1>
             <div class="col-lg-4">
                 <div class="card mt-3" style="width: 20rem;">
-                    <img src="../img/11.jpg" class="card-img-top" alt="...">
+                    <img src="./img/11.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5><b>Low Rise Building</b></h5>
                         <p>Commercial</p>
@@ -21,7 +21,7 @@
 
             <div class="col-lg-4">
                 <div class="card mt-3 ms-4" style="width: 20rem;">
-                    <img src="../img/2.jpg" class="card-img-top" alt="...">
+                    <img src="./img/2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5><b>Winter Maintenance</b></h5>
                         <p>Residential</p>
