@@ -7,6 +7,11 @@ include "header.php";
         <p class="text-muted">Elevate Your Vision. Expand Your World.</p>
     </div>
 </div>
+<div class="row">
+    <div class="col-12 mb-5">
+        <img src=".\img\about-us-1.jpg" alt="">
+    </div>
+</div>
 <div class="container">
     <div class="row">
         <div class="col-6">
@@ -66,7 +71,12 @@ include "header.php";
                 </div>
             </div>
             <div class="row">
-                <div class="col-6"></div>
+                <div class="col-6">
+                    <div class="row">
+                    <div class="col-6"><img src=".\img\about-us-12.jpg" alt="" style="height: 190px; width: 275px;"></div>
+                    <div class="col-6"><img src=".\img\about-us-11.jpg" alt="" style="height: 190px; width: 275px;"></div>
+                    </div>
+                </div>
                 <div class="col-6">
                     <p style="color: white;"> <b>primeconstruct</b> began its journey in <b>2001</b>, founded with a
                         clear vision: to deliver reliable, high-quality construction services that clients could trust.
