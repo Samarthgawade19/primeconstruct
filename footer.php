@@ -65,18 +65,16 @@
                     </div>
                 </div>
 
-                <!-- Quick Links -->
                 <div class="col-md-3">
                     <h5 class="footer-title">Quick Links</h5>
                     <ul class="list-unstyled">
-                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="PrivacyPolicy.php">Privacy Policy</a></li>
                         <li><a href="#">Terms of Service</a></li>
                         <li><a href="#">Credits</a></li>
                         <li><a href="FAQ.php">FAQ</a></li>
                     </ul>
                 </div>
 
-                <!-- Services -->
                 <div class="col-md-3">
                     <h5 class="footer-title">Our Services</h5>
                     <ul class="list-unstyled">
@@ -87,7 +85,6 @@
                     </ul>
                 </div>
 
-                <!-- Contact -->
                 <div class="col-md-3">
                     <h5 class="footer-title">Free Estimate</h5>
                     <p>Call Us: <strong>+91-444 333 44 66</strong></p>
@@ -95,7 +92,6 @@
                 </div>
             </div>
 
-            <!-- Bottom -->
             <div class="footer-bottom text-center mt-5">
                 <div class="row">
                     <div class="col-md-6 text-md-start">
