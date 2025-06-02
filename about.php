@@ -1,31 +1,38 @@
 <?php
 include "header.php";
 ?>
-<div class="container-fluid bg-light">
-    <div class="container py-5 text-center">
-        <h1 class="display-4 fw-bold">About Us</h1>
-        <p class="text-muted">Elevate Your Vision. Expand Your World.</p>
+
+<div class="container-fluid position-relative p-0">
+    <div class="bg-image" style="
+      background: url('./img/about-us-1.jpg') center center / cover no-repeat;
+      height: 400px;
+    ">
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
+        <div
+            class="container h-100 d-flex flex-column justify-content-center align-items-center text-white position-relative">
+            <h1 class="display-4 fw-bold">About Us</h1>
+            <p class="lead">Elevate Your Vision. Expand Your World.</p>
+        </div>
     </div>
 </div>
-<div class="row">
-    <div class="col-12 mb-5">
-        <img src=".\img\about-us-1.jpg" alt="">
-    </div>
-</div>
-<div class="container">
+
+<div class="container mt-5">
     <div class="row">
         <div class="col-6">
-            <b style="color: red;">About Company</b>
+            <b class="text-danger fs-5">About Company</b>
             <h1><b>Building with Purpose. Delivering with Pride.</b></h1>
             <p>Welcome to <b>primeconstruct</b>, where your vision meets our craftsmanship. We are a full-service
                 construction company with a reputation built on quality, integrity, and excellence. From concept to
                 completion, we deliver projects that stand the test of time — and exceed expectations.</p>
             <br>
             <div class="row">
-                <div class="col-3"><img src="./img/founder.jpg" alt="Founder Image" class="mt-3" style="height: 100px; width: 100px; border-radius: 50px;"></div>
-                <div class="col-9 mt-3"><p>Founder :</p>
-            <b>Omraj Optimiser</b>
-        <p>+91-444 333 44 66</p></div>
+                <div class="col-3"><img src="./img/founder.jpg" alt="Founder Image" class="mt-3"
+                        style="height: 100px; width: 100px; border-radius: 50px;"></div>
+                <div class="col-9 mt-3">
+                    <p>Founder :</p>
+                    <b>Omraj Optimiser</b>
+                    <p>+91-444 333 44 66</p>
+                </div>
             </div>
         </div>
         <div class="col-6">
@@ -62,7 +69,7 @@ include "header.php";
 <div class="row">
     <div class="col-12" style="border: 1px solid black; background-color: black;">
         <div class="container">
-            <p class="text-center mt-5"><b style="color:red;">Our History</b></p>
+            <p class="text-center mt-5 text-danger"><b>Our History</b></p>
             <div class="row">
                 <div class="col-12">
                     <h2 style="color:white;" class="text-center mb-5">From Humble Beginnings to Industry Leaders</h2>
@@ -71,8 +78,10 @@ include "header.php";
             <div class="row">
                 <div class="col-6">
                     <div class="row">
-                    <div class="col-6"><img src=".\img\about-us-12.jpg" alt="" style="height: 190px; width: 275px;"></div>
-                    <div class="col-6"><img src=".\img\about-us-11.jpg" alt="" style="height: 190px; width: 275px;"></div>
+                        <div class="col-6"><img src=".\img\about-us-12.jpg" alt="" style="height: 190px; width: 275px;">
+                        </div>
+                        <div class="col-6"><img src=".\img\about-us-11.jpg" alt="" style="height: 190px; width: 275px;">
+                        </div>
                     </div>
                 </div>
                 <div class="col-6">
@@ -155,4 +164,4 @@ include "header.php";
         </div>
     </div>
 </div>
-<?php include "footer.php";?>
+<?php include "footer.php"; ?>

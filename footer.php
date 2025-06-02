@@ -1,13 +1,4 @@
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
     <style>
         footer {
@@ -30,7 +21,7 @@
             font-size: 18px;
             font-weight: bold;
             margin-bottom: 20px;
-            color: #f8b400;
+            color:rgb(181, 36, 25);
         }
 
         .footer-social a {
@@ -81,7 +72,7 @@
                         <li><a href="#">Privacy Policy</a></li>
                         <li><a href="#">Terms of Service</a></li>
                         <li><a href="#">Credits</a></li>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a href="FAQ.php">FAQ</a></li>
                     </ul>
                 </div>
 
@@ -119,4 +110,5 @@
     </footer>
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  
 </body>
