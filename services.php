@@ -89,3 +89,44 @@
         </div>
     </div>
 </div>
+<!-- Roof Inspection Section -->
+<section class="roof-inspection bg-white text-dark position-relative pt-5 pb-5 border-top">
+  <!-- Top SVG Shape Divider -->
+  <div class="position-absolute top-0 w-100" style="z-index: 1;">
+    <svg viewBox="0 0 2600 131.1" preserveAspectRatio="none" class="w-100">
+      <path fill="#f8f9fa" d="M0 0L2600 0 2600 69.1 0 0z"></path>
+      <path fill="#f8f9fa" style="opacity:0.5" d="M0 0L2600 0 2600 69.1 0 69.1z"></path>
+      <path fill="#f8f9fa" style="opacity:0.25" d="M2600 0L0 0 0 130.1 2600 69.1z"></path>
+    </svg>
+  </div>
+
+  <div class="container position-relative z-2">
+    <div class="text-center mb-5">
+      <h6 class="text-uppercase text-danger fw-bold">Roof Inspection</h6>
+      <h2 class="fw-bold">Scheduling an Appointment</h2>
+      <p class="text-muted">
+        Book your free roof inspection today. Our experts will assess potential issues and provide a fast, accurate quote.
+      </p>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label visually-hidden">Full Name</label>
+            <input type="text" class="form-control form-control-lg" id="name" placeholder="Enter your full name" required>
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label visually-hidden">Phone number</label>
+            <input type="text" class="form-control form-control-lg" id="phone" placeholder="Phone number">
+          </div>
+          <div class="d-grid">
+            <button type="submit" class="btn btn-warning btn-lg text-dark fw-bold">Send</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<?php include "footer.php";?>
