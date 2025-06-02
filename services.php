@@ -56,7 +56,7 @@
 
         <div class="col-md-6 col-lg-4">
             <div class="card h-100 shadow-sm h-100 shadow-sm hover-shadow transition">
-                <img src="./img/service-3-.png" class="card-img-top" alt="Leak Repair">
+                <img src="./img/services-3.png" class="card-img-top" alt="Leak Repair">
                 <div class="card-body">
                     <h5 class="card-title fw-bold">Leak Repair</h5>
                     <p class="card-text">Expert leak repair to stop water damage fast. Identifying and sealing leaks
@@ -102,9 +102,8 @@
         </div>
     </div>
 </div>
-<!-- Roof Inspection Section -->
+
 <section class="roof-inspection bg-white text-dark position-relative pt-5 pb-5 border-top">
-    <!-- Top SVG Shape Divider -->
     <div class="position-absolute top-0 w-100" style="z-index: 1;">
         <svg viewBox="0 0 2600 131.1" preserveAspectRatio="none" class="w-100">
             <path fill="#f8f9fa" d="M0 0L2600 0 2600 69.1 0 0z"></path>
@@ -136,7 +135,7 @@
                         <input type="text" class="form-control form-control-lg" id="phone" placeholder="Phone number">
                     </div>
                     <div class="d-grid">
-                        <button type="submit" class="btn btn-warning btn-lg text-dark fw-bold">Send</button>
+                        <button type="submit" class="btn btn-danger btn-lg text-dark fw-bold">Send</button>
                     </div>
                 </form>
             </div>
