@@ -5,8 +5,7 @@ include "header.php";
 <div class="container-fluid position-relative p-0">
     <div class="bg-image" style="
       background: url('./img/about-us-1.jpg') center center / cover no-repeat;
-      height: 400px;
-    ">
+      height: 400px;">
         <div class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-50"></div>
         <div
             class="container h-100 d-flex flex-column justify-content-center align-items-center text-white position-relative">
