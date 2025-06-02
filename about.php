@@ -21,8 +21,6 @@ include "header.php";
                 construction company with a reputation built on quality, integrity, and excellence. From concept to
                 completion, we deliver projects that stand the test of time — and exceed expectations.</p>
             <br>
-            <button type="button" class="btn btn-danger"> READ MORE </button>
-            <br>
             <div class="row">
                 <div class="col-3"><img src="./img/founder.jpg" alt="Founder Image" class="mt-3" style="height: 100px; width: 100px; border-radius: 50px;"></div>
                 <div class="col-9 mt-3"><p>Founder :</p>
