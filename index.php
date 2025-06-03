@@ -59,7 +59,7 @@ include "header.php";
     </div>
 </div>
 
-<div class="col-12" style="height: 1600px; background-color: black;">
+<div class="col-12" style="height: 1500px; background-color: black;">
     <div style="height: 200px; background-color: white;"></div>
 
     <div style="height: 200px; background-color: black; mb-5">
@@ -96,7 +96,7 @@ include "header.php";
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container mb-5">
         <p class="text-danger text-center"><b>Our Services</b></p>
         <h2 class="text-light text-center mb-5">We Provide Superior Construction Services</h2>
         <div class="row">
@@ -136,9 +136,100 @@ include "header.php";
         </div>
     </div>
 
-    
+    <div class="container">
+        <p class="text-danger text-center"><b>Additional Services</b></p>
+        <h2 class="text-light text-center"><b>We Also Offer</b></h2>
+        <p class="text-light text-center">In addition to our core services, we offer a wide range of additional
+            solutions to meet
+            all your home improvement and maintenance needs. These include gutter installation and repair to ensure
+            proper drainage, as well as siding installation to enhance curb appeal and insulation. We provide expert
+            interior and exterior painting, drywall repair, and custom carpentry for personalized finishes. Our
+            insulation services help improve energy efficiency, while deck construction and power washing add beauty and
+            functionality to outdoor spaces. We also specialize in tile and flooring installation, window and door
+            replacement, fence installation, and basement finishing. For structural enhancements, we offer masonry work
+            and lighting or fixture installation. Whether it's a large project or minor repairs, our general handyman
+            services ensure that no task is too small or overlooked. Your satisfaction is our priority, and we’re here
+            to make every part of your property the best it can be.
+        </p>
+        <div class="row text-light pt-3">
+            <div class="col-2"></div>
+            <div class="col-4">
+                <ul>
+                    <li>Interior & Exterior Painting</li>
+                    <li>Custom Carpentry & Drywall Repair</li>
+                    <li>Insulation & Energy Efficiency Upgrades</li>
+                </ul>
+            </div>
+            <div class="col-4">
+                <ul>
+                    <li>Deck Construction & Outdoor Enhancements</li>
+                    <li>Gutter and Siding Installation</li>
+                    <li>Deck Construction & Outdoor Enhancements</li>
+                </ul>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-5"></div>
+            <div class="col-2"><button type="button" class="btn btn-danger"> READ MORE </button></div>
+            <div class="col-5"></div>
+        </div>
+    </div>
 </div>
-
+<div class="col-12 mt-5">
+    <div class="container mb-5">
+         <h5 class="text-danger"><b>Why Choose Us</b></h5>
+         <h2><b>Six Reasons For People Choosing Us</b></h2>
+         <div class="row mb-4 mt-3">
+            <div class="col-4">
+                <div class="card shadow text-center" style="height:250px;">
+                    <i class="fa-solid fa-medal  fs-2 pt-4 pb-3"></i>
+                    <p class="text-danger"><b>Quality Material</b></p>
+                    <p class="p-2">We use only high-quality materials to ensure durability, safety, and long-lasting results in every construction project.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card shadow text-center" style="height:250px;">
+                    <i class="fa-regular fa-circle-check  fs-2 pt-4 pb-3"></i>
+                    <p class="text-danger"><b>Accredited</b></p>
+                    <p class="p-2">Our construction company is fully accredited, meeting industry standards for quality, safety, and professionalism.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card shadow text-center" style="height:250px;">
+                    <i class="fa-regular fa-user  fs-2 pt-4 pb-3"></i>
+                    <p class="text-danger"><b>Trained Workers</b></p>
+                    <p class="p-2">Our construction projects are handled by highly trained workers skilled in delivering precise, safe, and efficient results.</p>
+                </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-4">
+                <div class="card shadow text-center" style="height:250px;">
+                    <i class="fa-regular fa-clock  fs-2 pt-4 pb-3"></i>
+                    <p class="text-danger"><b>Time Availabilaty</b></p>
+                    <p class="p-2">We offer flexible time availability to accommodate your construction schedule and project needs.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card shadow text-center" style="height:250px;">
+                    <i class="fa-solid fa-phone-volume  fs-2 pt-4 pb-3"></i>
+                    <p class="text-danger"><b>Quick Responce</b></p>
+                    <p class="p-2">We provide quick response times to address client needs and ensure smooth progress throughout every construction project.</p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card shadow text-center" style="height:250px;">
+                    <i class="fa-solid fa-certificate  fs-2 pt-4 pb-3"></i>
+                    <p class="text-danger"><b>1 Year Warranty</b></p>
+                    <p class="p-2">We offer a 1-year warranty on all our construction work, ensuring quality and peace of mind for our clients.</p>
+                </div>
+            </div>
+         </div>
+    </div>
+</div>
 <?php
 include "footer.php";
 ?>
