@@ -14,7 +14,7 @@
         }
 
         footer a:hover {
-            color: #f8b400;
+            color:rgb(232, 80, 10);
         }
 
         .footer-title {

@@ -135,7 +135,7 @@
                         <input type="text" class="form-control form-control-lg" id="phone" placeholder="Phone number">
                     </div>
                     <div class="d-grid">
-                        <button type="submit" class="btn btn-danger btn-lg text-dark fw-bold">Send</button>
+                        <button type="submit" class="btn btn-danger btn-lg text-light fw-bold">Send</button>
                     </div>
                 </form>
             </div>
