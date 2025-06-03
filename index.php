@@ -192,8 +192,6 @@ include "header.php";
             </div>
         </div>
     </div>
-<<<<<<< HEAD
-=======
 
     <div class="container">
         <p class="text-danger text-center"><b>Additional Services</b></p>
@@ -288,8 +286,7 @@ include "header.php";
             </div>
          </div>
     </div>
->>>>>>> d12d424b93e3bc95c010c9921dd2604d8528121a
-</div>
+
 <?php
 include "footer.php";
 ?>
