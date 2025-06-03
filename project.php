@@ -223,34 +223,62 @@
         </div>
     </div>
 </div>
-<div class="bg-danger text-white py-5">
-    <div class="container text-center">
-        <h4 class="fw-bold mb-4">What Our Clients Say</h4>
-        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <blockquote class="blockquote">
-                        <p class="mb-3">"PrimeConstruct transformed our vision into a real landmark. Their attention to
-                            detail and quality is unmatched."</p>
-                        <footer class="blockquote-footer text-white-50">Sarah Thompson, CEO of GreenTech</footer>
-                    </blockquote>
-                </div>
-                <div class="carousel-item">
-                    <blockquote class="blockquote">
-                        <p class="mb-3">"Excellent team. On-time delivery and very professional throughout. Highly
-                            recommended!"</p>
-                        <footer class="blockquote-footer text-white-50">Michael Rivera, Property Developer</footer>
-                    </blockquote>
+<div class="bg-light text-white py-5">
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h5 class="text-danger">What Our Clients Say</h5>
+            <h2 class="fw-bold text-dark">Client Reviews</h2>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="card border-0 shadow-sm h-100 p-4">
+                    <div class="d-flex align-items-center mb-3">
+
+                        <div>
+                            <h6 class="mb-0 fw-semibold">Emily Carter</h6>
+                            <small class="text-muted">Homeowner</small>
+                        </div>
+                    </div>
+                    <p class="text-secondary fst-italic">"PrimeConstruct exceeded our expectations. Their team was
+                        professional, efficient, and turned our dream home into reality."</p>
+                    <div class="text-warning">
+                        ★★★★★
+                    </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </button>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card border-0 shadow-sm h-100 p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <div>
+                            <h6 class="mb-0 fw-semibold">Rajesh Mehta</h6>
+                            <small class="text-muted">Business Owner</small>
+                        </div>
+                    </div>
+                    <p class="text-secondary fst-italic">"They handled our office renovation flawlessly. The modern
+                        design and energy efficiency upgrades are fantastic."</p>
+                    <div class="text-warning">
+                        ★★★★☆
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card border-0 shadow-sm h-100 p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <div>
+                            <h6 class="mb-0 fw-semibold">Sarah Thompson</h6>
+                            <small class="text-muted">Architect</small>
+                        </div>
+                    </div>
+                    <p class="text-secondary fst-italic">"Working with PrimeConstruct was a smooth experience from start
+                        to finish. They deliver high-quality results on time."</p>
+                    <div class="text-warning">
+                        ★★★★★
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

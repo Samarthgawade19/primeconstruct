@@ -69,7 +69,7 @@
                     <h5 class="footer-title">Quick Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="PrivacyPolicy.php">Privacy Policy</a></li>
-                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="TermsofService.php">Terms of Service</a></li>
                         <li><a href="#">Credits</a></li>
                         <li><a href="FAQ.php">FAQ</a></li>
                     </ul>

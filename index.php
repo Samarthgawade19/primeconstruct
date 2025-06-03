@@ -18,49 +18,50 @@ include "header.php";
 </div>
 
 <style>
-.image-container {
-    position: relative;
-    height: 300px; /* adjust height as needed */
-    overflow: hidden;
-}
+    .image-container {
+        position: relative;
+        height: 300px;
+        /* adjust height as needed */
+        overflow: hidden;
+    }
 
-.image-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+    .image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
 
-.overlay-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-    z-index: 2;
-    padding: 20px 30px;
-    background: rgba(0, 0, 0, 0.5);
-    border-radius: 16px;
-    max-width: 90%;
-}
+    .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        z-index: 2;
+        padding: 20px 30px;
+        background: rgba(0, 0, 0, 0.5);
+        border-radius: 16px;
+        max-width: 90%;
+    }
 
-.main-heading {
-    font-size: 2.5rem;
-    font-weight: bold;
-    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
-}
+    .main-heading {
+        font-size: 2.5rem;
+        font-weight: bold;
+        text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    }
 
-.tagline {
-    font-size: 1.2rem;
-    font-weight: 400;
-    margin-top: 10px;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-    color: #f0f0f0;
-}
+    .tagline {
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-top: 10px;
+        text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+        color: #f0f0f0;
+    }
 
-.highlight {
-    color: #FFD700;
-}
+    .highlight {
+        color: #FFD700;
+    }
 </style>
 
 <div class="container mt-5 mb-1">
@@ -237,56 +238,120 @@ include "header.php";
 </div>
 <div class="col-12 mt-5">
     <div class="container mb-5">
-         <h5 class="text-danger"><b>Why Choose Us</b></h5>
-         <h2><b>Six Reasons For People Choosing Us</b></h2>
-         <div class="row mb-4 mt-3">
+        <h5 class="text-danger"><b>Why Choose Us</b></h5>
+        <h2><b>Six Reasons For People Choosing Us</b></h2>
+        <div class="row mb-4 mt-3">
             <div class="col-4">
                 <div class="card shadow text-center" style="height:250px;">
                     <i class="fa-solid fa-medal  fs-2 pt-4 pb-3"></i>
                     <p class="text-danger"><b>Quality Material</b></p>
-                    <p class="p-2">We use only high-quality materials to ensure durability, safety, and long-lasting results in every construction project.</p>
+                    <p class="p-2">We use only high-quality materials to ensure durability, safety, and long-lasting
+                        results in every construction project.</p>
                 </div>
             </div>
             <div class="col-4">
                 <div class="card shadow text-center" style="height:250px;">
                     <i class="fa-regular fa-circle-check  fs-2 pt-4 pb-3"></i>
                     <p class="text-danger"><b>Accredited</b></p>
-                    <p class="p-2">Our construction company is fully accredited, meeting industry standards for quality, safety, and professionalism.</p>
+                    <p class="p-2">Our construction company is fully accredited, meeting industry standards for quality,
+                        safety, and professionalism.</p>
                 </div>
             </div>
             <div class="col-4">
                 <div class="card shadow text-center" style="height:250px;">
                     <i class="fa-regular fa-user  fs-2 pt-4 pb-3"></i>
                     <p class="text-danger"><b>Trained Workers</b></p>
-                    <p class="p-2">Our construction projects are handled by highly trained workers skilled in delivering precise, safe, and efficient results.</p>
+                    <p class="p-2">Our construction projects are handled by highly trained workers skilled in delivering
+                        precise, safe, and efficient results.</p>
                 </div>
             </div>
-         </div>
-         <div class="row">
+        </div>
+        <div class="row">
             <div class="col-4">
                 <div class="card shadow text-center" style="height:250px;">
                     <i class="fa-regular fa-clock  fs-2 pt-4 pb-3"></i>
                     <p class="text-danger"><b>Time Availabilaty</b></p>
-                    <p class="p-2">We offer flexible time availability to accommodate your construction schedule and project needs.</p>
+                    <p class="p-2">We offer flexible time availability to accommodate your construction schedule and
+                        project needs.</p>
                 </div>
             </div>
             <div class="col-4">
                 <div class="card shadow text-center" style="height:250px;">
                     <i class="fa-solid fa-phone-volume  fs-2 pt-4 pb-3"></i>
                     <p class="text-danger"><b>Quick Responce</b></p>
-                    <p class="p-2">We provide quick response times to address client needs and ensure smooth progress throughout every construction project.</p>
+                    <p class="p-2">We provide quick response times to address client needs and ensure smooth progress
+                        throughout every construction project.</p>
                 </div>
             </div>
             <div class="col-4">
                 <div class="card shadow text-center" style="height:250px;">
                     <i class="fa-solid fa-certificate  fs-2 pt-4 pb-3"></i>
                     <p class="text-danger"><b>1 Year Warranty</b></p>
-                    <p class="p-2">We offer a 1-year warranty on all our construction work, ensuring quality and peace of mind for our clients.</p>
+                    <p class="p-2">We offer a 1-year warranty on all our construction work, ensuring quality and peace
+                        of mind for our clients.</p>
                 </div>
             </div>
-         </div>
+        </div>
     </div>
 
-<?php
-include "footer.php";
-?>
+    <div class="container py-5">
+        <div class="text-center mb-5">
+            <h5 class="text-danger">What Our Clients Say</h5>
+            <h2 class="fw-bold">Client Reviews</h2>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+                <div class="card border-0 shadow-sm h-100 p-4">
+                    <div class="d-flex align-items-center mb-3">
+                       
+                        <div>
+                            <h6 class="mb-0 fw-semibold">Emily Carter</h6>
+                            <small class="text-muted">Homeowner</small>
+                        </div>
+                    </div>
+                    <p class="text-secondary fst-italic">"PrimeConstruct exceeded our expectations. Their team was
+                        professional, efficient, and turned our dream home into reality."</p>
+                    <div class="text-warning">
+                        ★★★★★
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card border-0 shadow-sm h-100 p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <div>
+                            <h6 class="mb-0 fw-semibold">Rajesh Mehta</h6>
+                            <small class="text-muted">Business Owner</small>
+                        </div>
+                    </div>
+                    <p class="text-secondary fst-italic">"They handled our office renovation flawlessly. The modern
+                        design and energy efficiency upgrades are fantastic."</p>
+                    <div class="text-warning">
+                        ★★★★☆
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <div class="card border-0 shadow-sm h-100 p-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <div>
+                            <h6 class="mb-0 fw-semibold">Sarah Thompson</h6>
+                            <small class="text-muted">Architect</small>
+                        </div>
+                    </div>
+                    <p class="text-secondary fst-italic">"Working with PrimeConstruct was a smooth experience from start
+                        to finish. They deliver high-quality results on time."</p>
+                    <div class="text-warning">
+                        ★★★★★
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <?php
+    include "footer.php";
+    ?>
