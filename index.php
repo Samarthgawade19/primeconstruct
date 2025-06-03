@@ -1,11 +1,68 @@
 <?php
 include "header.php";
 ?>
-<div class="row">
-    <div class="col-12">
-        <img src=".\img\main_img.webp" alt="" class="col-12">
+<div class="row position-relative">
+    <div class="col-12 p-0">
+        <div class="image-container">
+            <img src="./img/main_img.webp" alt="Main Image" class="img-fluid w-100">
+            <div class="overlay-text">
+                <div class="main-heading">
+                    Welcome to <span class="highlight">PrimeConstruct</span>
+                </div>
+                <div class="tagline">
+                    Building the Future with Precision and Passion
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+
+<style>
+.image-container {
+    position: relative;
+    height: 300px; /* adjust height as needed */
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    z-index: 2;
+    padding: 20px 30px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    max-width: 90%;
+}
+
+.main-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.8);
+}
+
+.tagline {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 10px;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+    color: #f0f0f0;
+}
+
+.highlight {
+    color: #FFD700;
+}
+</style>
+
 <div class="container mt-5 mb-1">
     <div class="row">
         <div class="col-6">
@@ -135,8 +192,6 @@ include "header.php";
             </div>
         </div>
     </div>
-
-    
 </div>
 
 <?php
