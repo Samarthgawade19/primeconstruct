@@ -1,11 +1,11 @@
 <?php include 'header.php'; ?>
 
-<body class="bg-light">
+<body>
     <style>
-        body {
+        /* body {
             background: linear-gradient(to right, #e0eafc, #cfdef3);
             font-family: 'Segoe UI', sans-serif;
-        }
+        } */
 
         .faq-header {
             background-color: #0d6efd;
@@ -50,8 +50,6 @@
     <section class="container my-5">
         <div class="faq-card p-4">
             <div class="accordion" id="faqAccordion">
-
-
                 <div class="accordion-item mb-3 border-0">
                     <h2 class="accordion-header" id="faq1">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse"

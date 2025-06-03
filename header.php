@@ -84,6 +84,6 @@
         </li>
       </ul>
     </div>
-    <a href="" class="btn btn-warning">BOOK A CALL</a>
+    <a href="contact.php" class="btn btn-warning">BOOK A CALL</a>
   </div>
 </nav>
