@@ -304,7 +304,7 @@ include "header.php";
             <div class="col-md-6 col-lg-4">
                 <div class="card border-0 shadow-sm h-100 p-4">
                     <div class="d-flex align-items-center mb-3">
-                       
+
                         <div>
                             <h6 class="mb-0 fw-semibold">Emily Carter</h6>
                             <small class="text-muted">Homeowner</small>
